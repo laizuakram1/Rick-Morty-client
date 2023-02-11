@@ -2,22 +2,33 @@ import React from 'react';
 import '../Banner/Banner.css';
 import logo from '../../assets/images/Logo.png'
 import HeroIcon from '../../assets/images/Home page/Hero element/portal.png'
+import bubble from '../../assets/images/Home page/Hero element/bubble.png';
+import Gun from '../../assets/images/Home page/Hero element/Gun.png';
+import pill from '../../assets/images/Home page/Hero element/pill.png';
+import { Button } from "@material-tailwind/react";
+
 
 const Banner = () => {
     return (
-        <div id='banner'>
-            <div className='banner-content'>
+        <div>
+           <div id='Home'>
             <div className='logo'>
                 <img src={logo}></img>
             </div>
-            <div className='banner-title'>
-                <h1 className="text-7xl font-bold"><span className='text-white'>THE</span><span className='inline-block'><img src={HeroIcon}></img></span> RICK & <br></br>MORTY <span className='text-white'>WIKI</span></h1>
+
+            <div className='banner'>
+                <div className='banner-title mb-5'>
+                    <h1 className='text-9xl font-extrabold'>THE <img className='inline-block' src={HeroIcon}></img> RICK & <br></br> MORTY WIKI</h1>
+                </div>
+                <div className='banner-description'>
+                    <Button className='watch-btn'>Watch Now</Button>
+                    <p>Briliant but boozy scientist Rick morty hijacks his fretfl teenage grandson, Morty, for wild escapades in other worlds and alternate dimenstions. </p>
+                </div>
             </div>
-            <div className='watch-now'>
-            <button className='text-sm'>Watch Now</button>
-                <p className='w-96 text-left ml-10 text-sm'>Brilliant but boozy scientist Rick hijacks his fretful teenage grandson. Morty, for wild escapades in other worlds and alternate dimensions.</p>
-            </div>
-            </div>
+            <div className='meet-cast'></div>
+            <div className='episodes'></div>
+            <div className='location'></div>
+           </div>
         </div>
     );
 };
