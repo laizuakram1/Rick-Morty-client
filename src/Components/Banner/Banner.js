@@ -18,7 +18,7 @@ const Banner = () => {
 
             <div className='banner'>
                 <div className='banner-title mb-5'>
-                    <h1 className='text-9xl font-extrabold'>THE <img className='inline-block' src={HeroIcon}></img> RICK & <br></br> MORTY WIKI</h1>
+                    <h1 className='text-9xl font-extrabold'><span className='text-white italic'>THE</span> <img className='inline-block' src={HeroIcon}></img> <span className='text-color'>RICK &</span> <br></br> <span className='text-color'>MORTY</span> <span className='text-white italic'>WIKI</span></h1>
                 </div>
                 <div className='banner-description'>
                     <Button className='watch-btn'>Watch Now</Button>

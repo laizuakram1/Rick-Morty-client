@@ -1,0 +1,17 @@
+
+.meet-item{
+    width:290px;
+    height:296px;
+    border-radius: 8px;
+    margin-bottom:50px;
+    padding:20px;
+    background-color:white;
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 75% 100%, 0 99%, 0% 50%);
+
+}
+.meet-item img{
+    width:100%;
+    height:80%;
+    background: transparent;
+    
+}
