@@ -11,7 +11,7 @@ import { Button } from "@material-tailwind/react";
 const Banner = () => {
     return (
         <div>
-           <div id='Home'>
+           <div>
             <div className='logo'>
                 <img src={logo}></img>
             </div>
