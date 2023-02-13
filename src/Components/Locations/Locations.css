@@ -1,15 +1,15 @@
-.episode-item{
+.location-item{
     width:290px;
     height:80px;
     margin-right:20px;
-    padding:20px;
+    padding:10px;
     background-color:#3a3939dd;
     clip-path: polygon(0 0, 100% 0, 100% 20%, 100% 65%, 88% 100%, 0 100%, 0% 80%, 0% 20%);
-
 }
-.episode-item p{
+
+.location-item p{
     font-size:12px;
 }
-.episode-item h4{
+.location-item h4{
     font-size:16px;
 }

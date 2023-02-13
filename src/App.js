@@ -2,6 +2,7 @@
 import './App.css';
 import Banner from './Components/Banner/Banner';
 import Episodes from './Components/Episodes/Episodes';
+import Locations from './Components/Locations/Locations';
 import MeetCast from './Components/MeetCast/MeetCast';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <Banner></Banner>
     <MeetCast></MeetCast>
     <Episodes></Episodes>
+    <Locations></Locations>
     </div>
   );
 }
