@@ -21,7 +21,7 @@ const Episodes = () => {
         {/* carousel items */}
         <div className='episodes-item flex'>
         {
-            episodes.map(episode => <div episode = {episode} className='episode-item text-white'>
+            episodes.map(episode => <div episode = {episode} key ={episode.id} className='episode-item text-white'>
                 <p>{episode.episode}</p>
                 <h4>{episode.name}</h4>
             </div>)

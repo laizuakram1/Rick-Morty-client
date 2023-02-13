@@ -1,20 +1,19 @@
 
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import Banner from './Components/Banner/Banner';
-import Episodes from './Components/Episodes/Episodes';
-import Locations from './Components/Locations/Locations';
-import MeetCast from './Components/MeetCast/MeetCast';
+import AllCast from './Components/AllCast/AllCast';
+import Home from './Components/Home';
 
 function App() {
   return (
     <div class="container mx-auto" id='Home'>
-      <h4 className='text-white'>Home</h4>
-     
+     <Routes>
+      <Route path='/' element={<Home></Home>}></Route>
+      <Route path='/home' element={<Home></Home>}></Route>
+      <Route path='/all' element={<AllCast></AllCast>}></Route>
 
-    <Banner></Banner>
-    <MeetCast></MeetCast>
-    <Episodes></Episodes>
-    <Locations></Locations>
+     </Routes>
+     
     </div>
   );
 }

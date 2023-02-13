@@ -17,7 +17,7 @@ const Locations = () => {
   <div id="location1" className="carousel-item relative w-full">
     <div className='location-items flex'>
         {
-            locations.map(location => <div location = {location} className='location-item text-white'>
+            locations.map(location => <div location = {location} key ={location.id} className='location-item text-white'>
                 <p>#{location.id}</p>
                 <h4>{location.name}</h4>
             </div> )

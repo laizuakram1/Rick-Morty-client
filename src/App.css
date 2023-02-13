@@ -43,5 +43,6 @@
   background-size: cover, initial;
   background-position:left top, right bottom;
   background-repeat: no-repeat, no-repeat;
+  padding-bottom:50px;
   
 }

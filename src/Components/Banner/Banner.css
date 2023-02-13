@@ -16,8 +16,9 @@
 
 .logo img{
     width:227px;
-    height:48px;
+    height:60px;
     margin:auto;
+    padding-top:10px;
 }
 .banner{
     width:1075px;

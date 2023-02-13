@@ -1,6 +1,8 @@
 import '../MeetCast/MeetCast.css';
 import React, { useEffect } from 'react';
 import { useState } from 'react';
+import DisplayCast from '../AllCast/DisplayCast';
+import { Link } from 'react-router-dom';
 
 
 
@@ -20,18 +22,8 @@ const MeetCast = () => {
         <div >
             <div className='flex justify-between w-full mb-5'>
                 <h5 className='text-xl text-white text-base'>Meet The Cast</h5>
-                <button className="btn btn-outline btn-accent">View All</button>
+                <Link to='/all'><button className="btn btn-outline btn-accent">View All</button></Link>
             </div>
-
-            {/* <div className='meet-items flex'>
-                {
-                    users.map(user => <div user={user} className='meet-item '>
-                        <img src={user.image}></img>
-                        <h5 className='text-base font-medium mt-5'>{user.name}</h5>
-                    </div> )
-                }
-              
-            </div> */}
 
 
 {/* meet cast carousels */}
@@ -40,7 +32,7 @@ const MeetCast = () => {
   <div className='meet-items flex'>
                 
                 {
-                    users.map(user => <div user={user} className='meet-item '>
+                    users.map(user => <div user={user} key ={user.id}className='meet-item '>
                         <img src={user.image}></img>
                         <h5 className='text-white text-base font-medium mt-5'>{user.name}</h5>
                     </div> )
