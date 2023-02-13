@@ -42,7 +42,7 @@ const MeetCast = () => {
                 {
                     users.map(user => <div user={user} className='meet-item '>
                         <img src={user.image}></img>
-                        <h5 className='text-base font-medium mt-5'>{user.name}</h5>
+                        <h5 className='text-white text-base font-medium mt-5'>{user.name}</h5>
                     </div> )
                 }
             </div>
