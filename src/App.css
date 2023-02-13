@@ -39,7 +39,9 @@
 
 
 #Home{
-  background-image: url('./assets/images/Home page/bgElement/Background.png');
-  background-size: cover;
+  background-image: url('./assets/images/Home page/bgElement/Background.png'), url('./assets/images/Home page/bgElement/Spiral.png');
+  background-size: cover, initial;
+  background-position:left top, right bottom;
+  background-repeat: no-repeat, no-repeat;
   
 }

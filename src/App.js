@@ -9,6 +9,8 @@ function App() {
   return (
     <div class="container mx-auto" id='Home'>
       <h4 className='text-white'>Home</h4>
+     
+
     <Banner></Banner>
     <MeetCast></MeetCast>
     <Episodes></Episodes>
