@@ -5,9 +5,10 @@ import Locations from './Locations/Locations';
 import MeetCast from './MeetCast/MeetCast';
 
 
+
 const Home = () => {
     return (
-        <div id='Home'>
+        <div> 
             <Banner></Banner>
             <MeetCast></MeetCast>
             <Episodes></Episodes>

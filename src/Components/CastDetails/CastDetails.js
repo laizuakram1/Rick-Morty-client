@@ -20,7 +20,7 @@ const CastDetails = () => {
     }, [id])
 
     return (
-        <div>
+        <div className='cast-details-main'>
             <div className='logo py-10'>
                     <img src={logo}></img>
             </div>
@@ -32,7 +32,7 @@ const CastDetails = () => {
                 <div className="details-right p-10 text-white">
                     <div className='cast-status grid grid-cols-3 gap-6 pb-6'>
                         <div className='status p-5'>
-                            <RiHeart2Fill className='text-4xl icons'/>
+                        <RiHeart2Fill className='icons text-4xl'/>
                             <p>Status</p>
                             <h4 className='text-2xl font-bold'>{cast.status}</h4>
                         </div>

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import DisplayCast from './DisplayCast';
 import logo from '../../assets/images/Logo.png'
+import '../AllCast/AllCast.css';
 
 const AllCast = () => {
 
@@ -12,7 +13,7 @@ const AllCast = () => {
             .then(data => setCasts(data.results))
     }, [])
     return (
-        <div>
+        <div className='all-cast-main'>
             <div className='logo'>
                 <img src={logo}></img>
             </div>

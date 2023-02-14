@@ -1,3 +1,10 @@
+.banner-main{
+    background-image:url('../../assets/images/Home page/bgElement/Background.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    opacity:1.0;
+}
+
 .watch-btn{
     width:203px;
     height:58px;

@@ -1,4 +1,8 @@
-
+.cast-details-main{
+    background-image:url('../../assets/images/cast Details/castDetailsBg.png'), url('../../assets/images/cast Details/castDetailsStar.png');
+    background-size:cover, auto;
+    background-repeat:no-repeat
+}
 .details-left{
     width:300px;
     margin:auto;

@@ -1,7 +1,6 @@
 import '../MeetCast/MeetCast.css';
 import React, { useEffect } from 'react';
 import { useState } from 'react';
-import DisplayCast from '../AllCast/DisplayCast';
 import { Link } from 'react-router-dom';
 
 
@@ -19,7 +18,7 @@ const MeetCast = () => {
     },[])
 
     return (
-        <div >
+        <div className='meet-cast-main'>
             <div className='flex justify-between w-full mb-5'>
                 <h5 className='text-xl text-white text-base'>Meet The Cast</h5>
                 <Link to='/all'><button className="btn btn-outline btn-accent">View All</button></Link>
