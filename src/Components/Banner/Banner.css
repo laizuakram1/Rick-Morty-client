@@ -51,21 +51,21 @@
 
 .bubble{
     position:absolute;
-    top:50px;
-    left:140px;
+    top:45px;
+    left:85px;
 }
 
 .pill{
     position:absolute;
-    top:180px;
-    left: 1220px;
+    top:185px;
+    left: 985px;
 
 }
 
 .gun{
     position:absolute;
-    top:150px;
-    left:1200px;
+    top:170px;
+    left:900px;
 }
 
 
