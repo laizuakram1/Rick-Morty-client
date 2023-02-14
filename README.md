@@ -1,7 +1,7 @@
 
 
 
- [I'm a reference-style link][[Arbitrary case-insensitive reference text](https://github.com/facebook/create-react-app)]
+ [Live link][[https://github.com/facebook/create-react-app]
 
 > This is Rick morty website
 
