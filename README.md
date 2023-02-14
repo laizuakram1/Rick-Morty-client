@@ -1,11 +1,11 @@
 
 
 
- [Live link][[https://github.com/facebook/create-react-app]
+ Live link: [[https://github.com/facebook/create-react-app]
 
 > This is Rick morty website
 
-###CSS Framework
+### CSS Framework
 - Tailwind css
 - Daisy UI
 
