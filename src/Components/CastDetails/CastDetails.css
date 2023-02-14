@@ -7,20 +7,36 @@
 .details-left img{
     width:280px;
     padding:25px;
-    border:1px solid orange;
+    border:1px solid #9DFE00;
     border-radius:5px;
 
 }
 
 .origin{
     width:100%;
-    border:1px solid orange;
+    border:1px solid #9DFE00;
     padding:20px;
     margin-bottom:25px;
     border-radius:5px;
 }
 
 .icons{
-    color:cyan;
+    color:#9DFE00;
     
+}
+.status{
+    border:1px solid #9DFE00;
+    border-radius: 5px;
+}
+.dotIcon{
+    display:online;
+    font-size:24px;
+    color:white;
+}
+.origin-icon{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+
 }
